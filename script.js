@@ -16,9 +16,17 @@ let aniversario = "Abril";
 }
 
 const nome = "Michelle";
-let letra = "M";
-if(letra === "R"){
+
+if(nome[0] === "R"){
     console.log("Seu nome começa com R");
 }else{
     console.log("Seu nome não começa com R")
+}
+
+let sobrenome ='Conceição';
+
+if((sobrenome.length > 6) ||(nome[0] ==="E")){
+  console.log("Seu sobrenome tem 6 letras ou começa com E");
+}else{
+    console.log("Seu sobrenome não preenche os requisitos.")
 }
